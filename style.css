@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 200vh;
+}
+header {
+  position: relative;
+  top: 0;
+}
+header .content {
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+  background-color: rgb(40, 55, 129);
+  padding: 20px;
+}
+
+header .content .flag a {
+  display: flex;
+  text-decoration: none;
+  width: 17px;
+  gap: 20px;
+}
+
+header .content .text a {
+  margin-left: 20px;
+  color: rgb(186, 186, 186);
+  text-decoration: none;
+}
+
+header .content .text a.regis {
+  border: 2px solid rgb(101, 190, 101);
+  padding: 20px;
+  background-color: rgb(101, 190, 101);
+  color: white;
+  font-weight: bold;
+}
+
+nav.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  top: 0;
+}
+
+nav.top .logo {
+  text-decoration: none;
+}
+
+nav.top .logo img {
+  width: 200px;
+  height: auto;
+}
+
+nav.top .text-2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+nav.top .text-2 a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+nav.top .text-2 i {
+  color: white;
+}
+div.image {
+  background-image: url(Web-Banner-Tes-Masuk-S1-Gel-8-2024-Universitas-Prasetiya-Mulya.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+  width: auto;
+  height: 760px;
+}
